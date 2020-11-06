@@ -6,7 +6,7 @@ body {
 .jumbotron {
     background-image: url("Images/bgn7darker.jpg");
     background-size: cover;
-    height: 100vh;
+    height: 100vh;  
     text-align: center;
     margin-bottom: 0
 }
@@ -18,9 +18,10 @@ body {
 .jumbotron h1 {
     margin-top: 19rem;
     color: white;
-    font-weight: bold;
-    font-size: 4rem;
+    font-weight: 900;
+    font-size: 45px;
     font-family: Roboto;
+    text-transform: uppercase;
 }
 
 .banter {
@@ -97,3 +98,83 @@ body {
     .card {
         width: 100%;
   }
+}
+
+/* Menu */
+.menu-list {
+    display: block;
+    /* border: 1px solid red; */
+}
+
+.menu-container {
+    /* border: 1px solid red; */
+    margin: 5rem auto 0 auto;
+    width: 40%;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+    .menu-container {
+        width: 100%;
+  }
+}
+
+.menu-container h1 {
+    color: #424242;
+    font-size: 27px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: Poppins;
+}
+
+.menu-container h1::after {
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: #c69c6d;
+    width: 55px;
+    margin: 15px auto;
+}
+
+.menu-container h2 {
+    font-size: 17px;
+    color: #585858;
+    margin-bottom: 3rem;
+}
+
+.menu-list li {
+    display: inline-block;
+    margin: 0 1rem; 
+    font-size: 1.2rem;
+    color: #606060;
+}
+
+li a {
+    color: #606060;
+}
+
+/* main body */
+.thumb {
+    border: 1px solid green;
+    width: 100%;
+}
+
+.thumb img {
+    display: inline-block;
+}
+
+.image-rows {
+    width: 65%;
+    margin: 3rem auto 0 auto
+}
+
+.image-rows img {
+    width: 100%;
+    height: auto;
+}
+
+.image-rows h1 {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 1rem;
+}

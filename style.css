@@ -3,6 +3,11 @@ body {
     font-family: Poppins;
 }
 
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+
 .jumbotron {
     background-image: url("Images/bgn7darker.jpg");
     background-size: cover;
@@ -47,8 +52,10 @@ body {
     border-color: #c69c6d;
     }
 .banner-button:focus {
-    outline: none;
-    box-shadow: none;
+    outline: none !important;
+    box-shadow: none !important;
+    background-color: #c69c6d;
+    border-color: #c69c6d;
 }
 
   /* mobile banner */
@@ -177,4 +184,72 @@ li a {
     font-size: 1.3rem;
     text-align: center;
     margin-top: 1rem;
+}
+
+.bottom-row {
+    margin-bottom: 4rem;
+}
+
+/* banner */
+.demo-banner {
+    margin: 0 auto 0 auto;
+    padding: 4.5rem 0; 
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.demo-banner h1 {
+    margin-bottom: 1.75rem;
+    color: white
+}
+
+.demo-button {
+    border-width: 5px;
+    border-radius: 25px;
+    width: 190px;
+    font-size: 1.15rem;
+    background-color: #7aa93c;
+    border-color: #7aa93c;
+}
+
+.demo-button:hover {
+    background-color: #7aa93c;
+    border-color: #7aa93c;
+}
+
+.demo-button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    background: #7aa93c !important;
+    border-color: #7aa93c !important;
+}
+
+/* footer */
+
+.page-footer {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #212124
+}
+
+.page-footer p {
+    margin-bottom: .5rem;
+    color: white
+}
+
+.page-footer a {
+    color: white
+}
+
+.page-footer h6 {
+    color: white;
+    font-size: 1.0rem;
+    font-weight: 600 !important;
+}
+
+.page-footer a:hover {
+    color: #c69c6d;
+    text-decoration: none;
+    transition: color .25s;
 }

@@ -253,3 +253,7 @@ li a {
     text-decoration: none;
     transition: color .25s;
 }
+
+.company-name {
+    font-size: 1.5rem !important;
+}
